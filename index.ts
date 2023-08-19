@@ -1,6 +1,8 @@
 import { interval, timer } from 'rxjs';
 import { debounce } from 'rxjs/operators';
 
+// https://www.learnrxjs.io/learn-rxjs/operators/filtering/debounce
+
 //emit value every 1 second, ex. 0...1...2
 const interval$ = interval(2000);
 //raise the debounce time by 200ms each second
